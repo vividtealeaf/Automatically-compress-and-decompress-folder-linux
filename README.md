@@ -6,3 +6,5 @@ Threads used by xz can be changed in the script. The compression ratio can also 
 
 Make sure to change the directory in the script.
 This script also uses detox (https://github.com/dharple/detox). Download it from your favourite package manager before excecuting the script.
+
+Fully written in bash.
