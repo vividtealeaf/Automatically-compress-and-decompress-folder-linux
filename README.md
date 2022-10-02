@@ -8,3 +8,17 @@ Make sure to change the directory in the script.
 This script also uses detox (https://github.com/dharple/detox). Download it from your favourite package manager before excecuting the script.
 
 Fully written in bash.
+
+## Running
+
+Before anything make sure to ``` cd ``` into the cloned repo.
+
+To run this script make sure it is excecutable with:
+```
+chmod +x auto-compress.sh
+```
+
+Then run it with:
+```
+./auto-compress.sh
+```
