@@ -1,4 +1,4 @@
-# Automatically-compress-folder
+# Automatically-compress-folder (linux only)
 Recursively compresses every folder inside a target folder.
 
 Uses tar to create the archive and then uses xz to compress it for the best compression ratio.
