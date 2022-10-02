@@ -22,3 +22,9 @@ Then run it with:
 ```
 ./auto-compress.sh
 ```
+
+## usage
+
+To use the script open it in a text editor and change the directory variable to the folder in which all other folders should be compressed.
+
+For example: If you have a folder named 'Games' with contents being 'Game1', 'Game2' and 'Game3', then setting 'Games' as the directory will compress the 'Game1', 'Game2' and 'Game3' folders. 
