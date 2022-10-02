@@ -2,15 +2,17 @@
 #requires detox
 
 line_num=1
-directory="DIRECTORY"
+directory="EDIT-DIRECTORY-VARIABLE"
 line_output="placeholder"
-threads="6"
+threads="0"
 
 #BE CAREFULL WITH THIS.DO NOT ADD A "/" AT THE END OF THE DIRECTORY OR THE FOLDER STRUCTURE WILL BREAK
 detox $directory
+
 cd $directory
 ls -p | grep / > "lsdir.txt"
 
+echo ""
 echo "IGNORE TAR ERRORS.ITS JUST MY AWFUL CODE.THE DATA IS FINE."
 echo ""
 echo "threads used can be changed in the script"
